@@ -1,3 +1,9 @@
+
+
+db.col01.find({"genero":"rock"})
+db.col01.find({"genero": {$eq: "rock"}})
+
+
 db.col01.insertMany([
     {
         nombre: "Green day",
@@ -61,3 +67,6 @@ db.col01.insertMany([
     
 
 ])
+
+
+
